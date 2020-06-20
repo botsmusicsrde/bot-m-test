@@ -6,11 +6,11 @@ const fs = require('fs');
 const r1 = require('snekfetch');
 client.on('warn', console.warn);
 client.on('error', console.error);
-const GUILDID = '688868521764978726'; //  تعديل مهم ايدي السيرفر  
-const CHANNELID = '703210706916474881'; // تعديل مهم ايدي الروم الصوتي
+const GUILDID = '722014401921679412'; //  تعديل مهم ايدي السيرفر  
+const CHANNELID = '722145721977143329'; // تعديل مهم ايدي الروم الصوتي
 
 //البرفكس
-const prefix = "1"; // تعديل مهم حط هنا البرفكس او مقدمة الامر
+const prefix = "S"; // تعديل مهم حط هنا البرفكس او مقدمة الامر
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -24,7 +24,7 @@ client.on('ready', () => {
 
 
 //تغير الحالة
-const developers = ["557695585344421889","","",""] ///تعديل مهم حط هنا ايدي اللي بدك يتحكمو بالحالة
+const developers = ["690603235060219944","558220897547452418","",""] ///تعديل مهم حط هنا ايدي اللي بدك يتحكمو بالحالة
 client.on('message', message => {
 
     let argresult = message.content.split(` `).slice(1).join(' ');
