@@ -7,7 +7,7 @@ const r1 = require('snekfetch');
 client.on('warn', console.warn);
 client.on('error', console.error);
 const GUILDID = '722014401921679412'; //  تعديل مهم ايدي السيرفر  
-const CHANNELID = '723491003998273538'; // تعديل مهم ايدي الروم الصوتي
+const CHANNELID = '722145721977143329'; // تعديل مهم ايدي الروم الصوتي
 
 //البرفكس
 const prefix = "i"; // تعديل مهم حط هنا البرفكس او مقدمة الامر
